@@ -28,3 +28,10 @@ int()
 float()
 bool()
 str()
+
+# strings
+course = 'Python for Begginers' # this is an object, string object. 
+course.upper() # después del punto van los métodos. upper return un string con letras mayusculas
+
+print(course.upper())
+print(course.finde('y')) # buscara algo, 'y' el primer y que aparezca y dirá el index donde está la 'y'
